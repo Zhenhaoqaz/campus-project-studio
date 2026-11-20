@@ -1,0 +1,37 @@
+# Dependencies and build output
+.venv/
+venv/
+node_modules/
+frontend/dist/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local data, credentials, and machine configuration
+data/
+*.sqlite*
+*.db
+*.log
+.env
+.env.*
+*.pem
+*.key
+*.p12
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Reports, presentations, internal records, and temporary output
+docs/
+output/
+tmp/
+*.pptx
+*.ppt
+*.pdf
+*.docx
+*.doc
+*报告*.md
+.chart-data-*/

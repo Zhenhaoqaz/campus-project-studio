@@ -1,0 +1,24 @@
+{
+  "name": "campus-project-studio",
+  "private": true,
+  "version": "1.5.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "node --test src/stream.test.mjs src/citations.test.mjs src/planEditing.test.mjs src/workspace.test.mjs src/execution.test.mjs src/reliability.test.mjs"
+  },
+  "dependencies": {
+    "lucide-react": "^0.468.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-markdown": "^10.0.0",
+    "remark-gfm": "^4.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.0",
+    "prettier": "^3.9.10",
+    "vite": "^6.2.0"
+  }
+}
